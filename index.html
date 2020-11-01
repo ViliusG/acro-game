@@ -12,21 +12,23 @@
     		<form action="progression.html" method='get'>
     			<div class="question">
 	    			<p>Choose dificulty:</p>
-					<input type="radio" name="dificulty" value="easy">
+					<input type="radio" name="dificulty" value="easy" required>
 					<label for="easy">Easy</label><br>
-					<input type="radio" name="dificulty" value="medium">
+					<input type="radio" name="dificulty" value="medium" >
 					<label for="medium">Medium</label><br>
-					<input type="radio" name="dificulty" value="hard">
+					<input type="radio" name="dificulty" value="hard" >
 					<label for="hard">Hard</label><br>
     			</div>
     			<div class="question">
 					<p>Choose length of the progression:</p>
-					<input type="number" name="length">
+					<input type="number" name="length" required>
     			</div>
     			<div class="submit">
 	    			<input type="submit" name="submit" value="Generate progression">
     			</div>
     		</form>
+            <br><br>
+            <a class='btn' href="howto.html">How to play?</a>
     	</div>
     </div>
 </body>
